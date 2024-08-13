@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 25px;
+    font-family: "Outfit", sans-serif;
+}
+
+.container {
+    width: 700px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: hsl(24, 5%, 18%);
+}
+
+p {
+    color: hsl(30, 10%, 34%);
+    line-height: 170%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.prep-time {
+    padding: 20px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.prep-time h3 {
+    color: hsl(332, 51%, 32%);
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.prep-time ul {
+    padding-left: 10px;
+}
+
+ul {
+    font-size: 14px;
+    list-style-position: inside;
+}
+
+li {
+    margin-bottom: 5px;
+    list-style: none;
+    background: transparent url(./assets/images/icons8-dot-30.png) no-repeat left center ;
+    padding-left: 45px; 
+    background-size: 1.25%;
+
+}
+
+li::marker {
+    font-size: 10px;
+}
+
+span {
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    margin-bottom: 20px;
+    color: hsl(332, 51%, 32%);
+}
+
+.second-list {
+    margin-bottom: 10px;
+}
+
+hr {
+    margin: 25px 0;
+    border-top: 1px solid hsl(30, 18%, 87%);
+}
+
+ol {
+    font-size: 14px;
+    list-style-position: inside;
+    margin-left: 20px;
+}
+
+ol li {
+    padding-bottom: 5px;
+    background: transparent  ;
+    list-style: decimal;
+    padding-left: 25px; 
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 200px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    height: 40px
+}
+
+.row p {
+    width: 50px;
+}
+
+.last {
+    border-bottom: 0px solid hsl(30, 18%, 87%);
+}
+
+.row h6 {
+    color: hsl(332, 51%, 32%);
+    font-size: 13px;
+}
